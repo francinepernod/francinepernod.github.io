@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 19,
+    "uniqCompNum": 20,
     "versionPublish": "3.12.1",
     "favicon": "@PROJECT_PATH@/assets/images/goldfish-30837-1280.png",
     "noImageResize": "",
@@ -41,6 +41,20 @@
         "order": 2
       },
       "components": [
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<meta name=\"verification\" content=\"f5cc00c31cba845189684ee23532d19a\">",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-j",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
         {
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
@@ -338,6 +352,17 @@
             "Extension"
           ],
           "_name": "extHeader13",
+          "_styles": {
+            "H3": {
+              "font-family": "'Source Sans Pro', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
+              "font-size": "60px"
+            },
+            "H4": {
+              "font-family": "'Source Sans Pro', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700"
+            }
+          },
           "_anchor": "extHeader13-i",
           "_params": {
             "parallax": false,
@@ -390,18 +415,7 @@
           },
           "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONSULTEZ LES TIRAGES</a>",
           "title": "PROCHAIN TIRAGE EUROMILLION",
-          "text": "",
-          "_styles": {
-            "H3": {
-              "font-family": "'Source Sans Pro', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700",
-              "font-size": "60px"
-            },
-            "H4": {
-              "font-family": "'Source Sans Pro', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,700"
-            }
-          }
+          "text": ""
         },
         {
           "alias": "mobirise3-blocks/components",
